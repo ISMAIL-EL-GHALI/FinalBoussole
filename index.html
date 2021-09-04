@@ -40,39 +40,39 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                 <!-- <span class="navbar-toggler-icon"></span> --><i class="fas fa-bars"></i>
             </button>
             <div  class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav  ml-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link active" href="#" data-scroll="notreMession"><i class="fa-fw fab fa-black-tie"></i> Notre mission</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll="service"> <i class="fa-fw fas fa-boxes"></i> Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll="pricing"><i class="ffa-fw fas fa-comment-dollar"></i> Abonnement</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll="testMonial"><i class="fa-fw fas fa-quote-left"></i> Témoignages</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#" data-scroll="contact"><i class="fas fa-envelope"></i> Contact</a>
-                    </li>
-                </ul>
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link active" id="notreMession-Li" href="#" data-scroll="notreMession"><i class="fa-fw fab fa-black-tie"></i> Notre mission</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="service-Li" data-scroll="service"> <i class="fa-fw fas fa-boxes"></i> Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="pricing-Li" data-scroll="pricing"><i class="ffa-fw fas fa-comment-dollar"></i> Abonnement</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="testMonial-Li" data-scroll="testMonial"><i class="fa-fw fas fa-quote-left"></i> Témoignages</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" id="contact-Li" data-scroll="contact"><i class="fas fa-envelope"></i> Contact</a>
+                </li>
+            </ul>
             </div>
         </div>
     </nav>
     <header>
       <video src="Vedio/bg-video.mp4" autoplay loop muted></video>
       <div class="content d-flex align-items-center">
-        <div class="container text-center">
+        <div class="container en text-center">
             <h2 class="text-uppercase"><span>Boussole Pro</span> , Savoir se diriger avec sens spirituel et
                 professionnel</h2>
-                <a href="#">Rejoindre une Masterclass</a>
+                <a href="#" data-scroll="quiSomme">En savoir plus</a>
         </div>
       </div>
     </header>
 
     <!--Qui sommes-nous-->
-   <div class="sec-nous text-center">
+   <div class="sec-nous text-center" id="quiSomme">
        <div class="container">
            <i class="fas fa-bookmark fa-2x"></i>
             <h1> Qui sommes nous ? </h1>
@@ -716,7 +716,7 @@ if($_SERVER['REQUEST_METHOD'] == 'POST'){
                       <div class="testimonial4_slide">
                           <img loading="lazy" src="./img/hommee.jpeg" class="img-circle img-responsive" />
                           <p class="text-justify box sb1">L'équipe BP à qui j'ai signalé être en recherche active de nouvelles opportunités d'emploi et notamment à l'étranger a été très réactive et proactive en organisant un sprint pro avec deux frères qui travaillent au moyen-orient.
-                            Toujours sympa de faire connaissance avec un frère et développer son réseau. Merci à l'équipe BP</p>
+                            <!-- Toujours sympa de faire connaissance avec un frère et développer son réseau. Merci à l'équipe BP --></p>
                           <!-- <span style="color: honeydew;" >Anurag yadav</span> -->
                           <h4>Makram</h4>
                           <i class="fas fa-quote-left fa-2x"></i>
