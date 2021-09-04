@@ -265,7 +265,7 @@ transform: translateY(-10px);
 }
 @media(max-width:561px){
     .quest h1{
-        margin-bottom: 17px;
+       font-size: 26px;
     }
 }
 /*Nos valeurs*/
@@ -1364,14 +1364,14 @@ transform: translateY(-10px);
 }
 /*Spinner*/
 .spinner {
-    margin:260px auto;
-    width: 249px;
+    margin:50% auto;
+    width:316px;
     text-align: center;
   }
   @media(max-width:600px){
     .spinner {
         margin: 50% auto;
-        width: 249px;
+        width:316px;
         text-align: center;
       }
   }
